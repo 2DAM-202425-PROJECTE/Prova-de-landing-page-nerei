@@ -1,14 +1,179 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet">
-    <title>Nerei App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page personal interactiva">
+    <title>LandingPage Nerei - Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sección Principal -->
+    <header>
+        <nav>
+            <div class="logo">Nerehei</div>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>¡Hola, soy Nerehei!</h1>
+            <p>Desarrollador web apasionado por crear experiencias digitales innovadoras.</p>
+            <a href="#sobre-mi" class="btn">Descubre más</a>
+        </div>
+    </header>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador web con experiencia en tecnologías modernas, me encanta resolver problemas y crear soluciones que mejoran la vida digital de las personas.</p>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="proyectos">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="project-grid">
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Una descripción del proyecto. Tecnologías: HTML, CSS, JS.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Una descripción del proyecto. Tecnologías: React, Node.js.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                    <h3>Proyecto 3</h3>
+                    <p>Una descripción del proyecto. Tecnologías: Vue.js, Firebase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Mapa -->
+    <section class="map-container">
+        <h2>Ubicación</h2>
+        <p>Nos encontramos aquí:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2ses!4v1728321386614!5m2!1ses!2ses!6m8!1m7!1s0-iCuHU8FjG32j5R5S9-Tw!2m2!1d40.8146472652992!2d0.5152919431107441!3f357.00534!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </section>
+
+
+         <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Habilitats</h2>
+            <p>Aquestes son les meves habilitats com a informàtic, tots aquests elements han sortit durant el cicle i considero que tinc aquest nivell mes o menys.</p>
+          </div>
+  
+          <div class="row skills-content">
+  
+            <div class="col-lg-6" data-aos="fade-up">
+  
+              <div class="progress">
+                <span class="skill">HTML <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70"></div>
+                </div>
+              </div>
+  
+              <div class="progress">
+                <span class="skill">CSS <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65"></div>
+                </div>
+              </div>
+  
+              <div class="progress">
+                <span class="skill">Kali Linux <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+  
+              <div class="progress">
+                <span class="skill">WireShark <i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>
+                </div>
+              </div>
+  
+              <div class="progress">
+                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+  
+              <div class="progress">
+                <span class="skill">Packet Tracer <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Skills Section -->
+
+
+    <!-- Sección Contacto con íconos sociales -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="btn">
+            </form>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/tu-usuario" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/tu-usuario" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nerehei. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón de "Volver arriba" -->
+    <a href="#" id="volver-arriba" title="Volver arriba"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- Incluir el archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
