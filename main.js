@@ -22,3 +22,22 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+
+// Seleccionamos el checkbox y el body
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+// Escuchamos cuando el usuario cambia el modo
+themeToggle.addEventListener('change', () => {
+    body.classList.toggle('dark-mode');
+});
+
+// Mostrar botón "Volver arriba" al hacer scroll
+window.addEventListener('scroll', () => {
+    const buttonUp = document.getElementById('volver-arriba');
+    if (window.scrollY > 300) {
+        buttonUp.style.display = 'block';
+    } else {
+        buttonUp.style.display = 'none';
+    }
+});

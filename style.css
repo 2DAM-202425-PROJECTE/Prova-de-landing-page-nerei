@@ -9,13 +9,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #ffffff; /* Color de fondo cambiado a blanco */
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-image: url('/fondo-futurista-tecnologia-degradada_23-2149131656.jpeg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen */
+    background-image: url('/fondo-futurista-tecnologia-degradada_23-2149131656.jpeg'); /* Si deseas mantener la imagen de fondo, déjala */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -104,7 +104,6 @@ h2 {
 }
 
 .proyectos {
-    background-color: #f0f0f0;
     padding: 60px 0;
 }
 
@@ -115,7 +114,7 @@ h2 {
 }
 
 .proyecto {
-    background-color: #fff;
+    background-color: #fff; /* Asegúrate de que los proyectos tengan fondo blanco */
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -143,7 +142,6 @@ h2 {
 }
 
 .contacto {
-    background-color: #fff;
     padding: 60px 0;
 }
 
@@ -219,17 +217,16 @@ footer a:hover {
 
 /* Estilos del mapa */
 .map-container {
-  margin: 40px 0;
-  text-align: center;
+    margin: 40px 0;
+    text-align: center;
 }
 
 iframe {
-  border: 0;
-  width: 80%;
-  height: 400px;
-  border-radius: 10px;
+    border: 0;
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
 }
-
 
 /*--------------------------------------------------------------
 # Akills
@@ -239,9 +236,9 @@ iframe {
     display: block;
     background: none;
     border-radius: 0;
-  }
-  
-  .skills .progress .skill {
+}
+
+.skills .progress .skill {
     padding: 0;
     margin: 0 0 6px 0;
     text-transform: uppercase;
@@ -249,25 +246,24 @@ iframe {
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #050d18;
-  }
-  
-  .skills .progress .skill .val {
+}
+
+.skills .progress .skill .val {
     float: right;
     font-style: normal;
-  }
-  
-  .skills .progress-bar-wrap {
+}
+
+.skills .progress-bar-wrap {
     background: #dce8f8;
     height: 10px;
-  }
-  
-  .skills .progress-bar {
+}
+
+.skills .progress-bar {
     width: 1px;
     height: 10px;
     transition: 0.9s;
     background-color: #149ddd;
-  }
-
+}
 
 /* Botón de volver arriba */
 #volver-arriba {
